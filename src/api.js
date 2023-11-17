@@ -4,7 +4,7 @@ const api = axios.create({
   baseURL:
     "https://instagram-downloader-download-instagram-videos-stories.p.rapidapi.com",
   headers: {
-    "X-RapidAPI-Key": "94e4390530msh1aba0690f7c7d8cp100edejsnab1459cfcd45",
+    "X-RapidAPI-Key": process.env.APIKEY,
     "X-RapidAPI-Host":
       "instagram-downloader-download-instagram-videos-stories.p.rapidapi.com",
   },
